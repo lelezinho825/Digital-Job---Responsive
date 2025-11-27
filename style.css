@@ -1,0 +1,128 @@
+:root {
+    --black: #1b1b1b;
+    --white: #ebebeb;
+    --color-1: #ff3838;
+    --color-2: #26be00;
+    --color-3: #a03aff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    transition: 0.5s;
+}
+
+body {
+    background-color: var(--black);
+}
+
+.footer {
+    display: flex;
+    background-color: var(--white);
+    border-radius: 10px;
+    align-items: center;
+    gap: 50px;
+    margin: 15px;
+    justify-content: space-around;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+a {
+    color: var(--black);
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#a:hover {
+    transform: scale(1.2);
+}
+
+#a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.statistics {
+    display: flex;
+    background-color: var(--white);
+    margin: 15px;
+    border-radius: 10px;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.one {
+    display: flex;
+    border: var(--color-1) 5px solid;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.8);
+}
+
+.two {
+    display: flex;
+    border: var(--color-2) 5px solid;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.8);
+}
+
+.three {
+    display: flex;
+    border: var(--color-3) 5px solid;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.8);
+}
+
+.recents-clients {
+    background-color: var(--white);
+    margin: 15px;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    transform: scale(1.4);
+    margin-bottom: 40px;
+}
+
+.client {
+    display: flex;
+    flex-direction: column;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-between;
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+}
